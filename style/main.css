@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.slide {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  background-image: url(../images/retreat1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slideCover {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.leftArrow {
+  height: 5vh;
+  width: 2vw;
+  background-color: black;
+  position: fixed;
+  left: 10px;
+  top: 50%;
+}
+
+.rightArrow {
+  height: 5vh;
+  width: 2vw;
+  background-color: black;
+  position: fixed;
+  right: 10px;
+  top: 50%;
+}
+
+.navLogo {
+  height: 50px;
+  width: 150px;
+  background-color: black;
+  position: fixed;
+  left: 10vw;
+  top: 20px;
+}
+
+.mainNav {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  top: 20px;
+  right: 10vw;
+}
+
+li {
+  display: inline;
+  text-align: right;
+  padding: 10px;
+}
+
+.circle {
+  height: 4px;
+  width: 4px;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 25px;
+  background-color: white;
+
+}
+
+.picCircles {
+  position: fixed;
+  top: 80%;
+  left: 40%;
+}
